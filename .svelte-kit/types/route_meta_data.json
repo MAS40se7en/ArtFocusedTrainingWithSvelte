@@ -1,0 +1,46 @@
+{
+	"/": [
+		"src/routes/+page.ts",
+		"src/routes/+page.server.ts",
+		"src/routes/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/[[lang]]/about": [
+		"src/routes/+layout.server.ts"
+	],
+	"/api/newsletter": [
+		"src/routes/api/newsletter/+server.ts"
+	],
+	"/api/posts": [
+		"src/routes/api/posts/+server.ts"
+	],
+	"/image/[width]x[height]": [
+		"src/routes/+layout.server.ts"
+	],
+	"/login": [
+		"src/routes/login/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/media/[...file]/[width]/[height]": [
+		"src/routes/+layout.server.ts"
+	],
+	"/posts": [
+		"src/routes/posts/+layout.server.ts",
+		"src/routes/+layout.server.ts",
+		"src/routes/posts/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/posts/create": [
+		"src/routes/posts/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/posts/[slug]": [
+		"src/routes/posts/[slug]/+page.server.ts",
+		"src/routes/posts/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/todos": [
+		"src/routes/todos/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	]
+}
